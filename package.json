@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "index.js"
   },
-  "author": "",
+  "author": "Eliel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
