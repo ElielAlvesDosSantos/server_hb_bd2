@@ -4,10 +4,10 @@ const sequelize = new Sequelize ('banco_dad','root','senai',{
     dialect: 'mysql'
 },)
 
-sequelize.authenticate().then(()=>{
-    console.log('conexão realizada com sucesso!')
-}).catch((error)=>{
-    console.error('não foi possivel conectar com o banco'+error)
-})
+// sequelize.authenticate().then(()=>{
+//     console.log('conexão realizada com sucesso!')
+// }).catch((error)=>{
+//     console.error('não foi possivel conectar com o banco'+error)
+// })
 
 module.exports = sequelize
