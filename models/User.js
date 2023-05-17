@@ -10,6 +10,9 @@ const User = db.define('user', {
     email: {
         type: DataTypes.STRING(30)
     },
+},{
+    createdAt: false,
+    updatedAt: false
 })
 
 User.sync({force:true})
